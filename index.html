@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Abujaid Raja - Web Developer</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">Abujaid Raja</div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Web Developer</h1>
+                <p class="subtitle">I'm a beginner web developer building clean, modern, responsive, and user-friendly websites that bring ideas to life.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Who I Am</h2>
+                <p class="section-description">Crafting digital solutions with creativity and precision</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">Your Photo Here</div>
+                <div class="about-content">
+                    <h3>Hello! I'm a Web Developer</h3>
+                    <p>I am a beginner web developer with practical experience in HTML, CSS, JavaScript, Java, JSP, and MySQL.</p>
+                    <p>I focus on building clean, responsive, and easy-to-use websites. Currently learning Spring MVC and React to improve my skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Skills</span>
+                <h2 class="section-title">What do I work with</h2>
+                <p class="section-description">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>JSP</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>MySQL<br>(CRUD)</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>Sping MVC<br>(Learning)</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>React<br>(Learning)</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>Responsive Design</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>Git & GitHub</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">E-Commerce Platform</div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured online shopping platform with demo checkout, user authentication, and admin dashboard.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Live →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">To Do App</div>
+                    <div class="project-content">
+                        <h3>To-Do App</h3>
+                        <p>Modern To-Do App with Add Add, Mark as Done, Delete and Edit features. Also List stays after refresh.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Live →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">Character Counter App</div>
+                    <div class="project-content">
+                        <h3>Character Counter App</h3>
+                        <p>lClean and Modern Live Character Conter counts every characters on typing also changes colour of counter when characters increases.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Live →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">Have a project in mind? Let's create something amazing</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <h4>Email</h4>
+                        <p>your@email.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <h4>Phone</h4>
+                        <p>+91 1234567890</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <h4>Location</h4>
+                        <p>Your City, India</p>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" class="social-link">💼</a>
+                    <a href="#" class="social-link">🐙</a>
+                    <a href="#" class="social-link">🐦</a>
+                    <a href="#" class="social-link">📸</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">&copy; 2024 Your Name. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop" onclick="scrollToTop()">↑</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
